@@ -4,6 +4,7 @@
 
 Here are the slides and code examples presented during the
 hackers of umass meeting on Thursday April 23, 2015.
+Happy Hacking!
 
 * `html-example`: contains the HTML examples
 * `css-example`: contains the CSS examples
