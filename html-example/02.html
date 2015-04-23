@@ -1,0 +1,90 @@
+<!--
+    This example shows the basic structure of all HTML documents.
+
+    HTML5 allows you to drop the <html>, <head>, and <body> tags if
+    you want - but, I recommend you do not.
+  -->
+<!doctype html>
+<html>
+<head>
+  <!--
+      The <head> tag provides information about the document
+      itself. It is a place where you can indicate what the window/tab
+      of the document should be named, styling information, behavior
+      (JavaScript), etc.
+
+      The type of tags that exist inside the <head> tag provide
+      document "meta-data" - tags that are used to describe the
+      document itself.
+
+      Here is an example of the title of the document:
+    -->
+  <title>A Simple HTML Document</title>
+</head>
+<body>
+  <!--
+    The <body> tag provides the structure and content of the
+    document. This is where the actual "view" of your web
+    application's interface is defined.
+
+
+    The main structural elements allow grouping of main document
+    components. Here are a few of them:
+
+    <body>, <section>, <nav>, <article>, <aside>, <h1> - <h6>
+  -->
+
+  <!-- <hgroup> can be used to group headers: -->
+  <hgroup>
+    <h1>My Blog</h1>
+    <h2>October, 2014</h2>
+  </hgroup>
+
+  <!-- <nav> can be used to provide a navigation bar -->
+  <nav>
+    What I Did Yesterday <br>
+    Swimming in Maine <br>
+  </nav>
+
+  <!-- An <article> is a self-contained document: -->
+  <article>
+    <!-- A <header> indicates a header: -->
+    <header>
+      <h2>What I Did Yesterday</h2>
+      <!-- <time> can be used to indicate a time: -->
+      <time>October 4, 2014</time>
+    </header>
+    <p>
+      I did lots of things yesterday including...
+    </p>
+  </article>
+
+  <article>
+    <header>
+      <h2>Swimming in Maine</h2>
+      <time>October 1, 2014</time>
+    </header>
+    <p>
+      It was very cold, but I jumped in anyways...
+    </p>
+
+    <!-- An <aside> is used to define content aside the content it is
+         placed in: -->
+    <aside>
+      <h4>Maine</h4>
+      <p>A great place to go on vacation</p>
+    </aside>
+  </article>
+
+  <!-- <address> is used to define addresses and contact information: -->
+  <address>
+    John Doe, 401 Klement Circle, Orange MA
+  </address>
+
+  <!-- The <footer> is used to define, well, a footer: -->
+  <footer>
+    My Awesome Blog
+  </footer>
+
+</body>
+</html>

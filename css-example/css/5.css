@@ -1,0 +1,15 @@
+.boxit {
+    border-color:        black;
+    border-width:        1px;
+    border-style:        solid;
+    background-color:    #a7cece;
+    padding:             25px;
+    margin:              30px;
+    /* new */
+    padding-left:        200px;
+    /* new */
+    background-size: 10%;
+    background-image:    url(../background.gif);
+    background-repeat:   no-repeat; /* repeat-x, repeat-y, inherit */
+    background-position: top left;  /* talk more about possbilities later */
+}

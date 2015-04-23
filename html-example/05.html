@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+  <title>A Simple HTML Document</title>
+</head>
+<body>
+  <!--
+      Although it is useful to apply semantics to text we often want
+      to include external content that will be rendered by a browser.
+    -->
+
+  <!--
+      The most popular is including images:
+  -->
+  <figure>
+  <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Smiley.svg/2000px-Smiley.svg.png" 
+       height="52" 
+       width="100">
+  <figcaption>Smile!</figcaption>
+  </figure>
+
+  <!--
+  Sound is also nice:
+  -->
+  <audio controls>
+    <source src="http://www.lettersnstuff.com/sounds/animals/belugawhale.wav"
+	    type="audio/wav">
+    Your browser does not support the audio tag.
+  </audio>
+
+  <br><br>
+  <!--
+  Video is also nice:
+  -->
+  <video width="420" height="340" controls>
+    <source src="short.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <br><br>
+  <!--
+  How about embedding a browser inside a view?
+  -->
+  <iframe src="http://www-edlab.cs.umass.edu/cs326" width="400" height="400">
+  </iframe>
+
+</body>
+</html>

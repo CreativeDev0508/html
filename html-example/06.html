@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+  <title>A Simple HTML Document</title>
+</head>
+<body>
+  <!-- It would be really nice if we could identify elements in a
+       document. This will come in really handy when we talk about CSS
+       and JavaScript. We can do this with the "id" attribute: -->
+  <p id="para1">
+    This is my first body of text:
+    <div id="part1">
+      This is some text.
+    </div>
+
+    <div id="part2">
+      This is some more text.
+    </div>
+  </p>
+
+  <!-- What if we want to classify a "set" of tags in a document?
+       Perhaps we want all paragraphs to have a particular color or
+       style. Perhaps we want to find all important words in a
+       document. We use the "class" attribute to accomplish this: -->
+  <p id="abstract" class="green-color">
+    This is some <i class="red">text</i> that we want to use to
+    describe <span class="important">the rest of the
+    document</span>. But, we need to first <span class="crazy">write
+    the rest of the document before midnight</span>!.
+  </p>
+
+  <!--
+      Structuring data in tabular form is great!
+    -->
+
+  <table width="50%" border="1" id="user_data">
+    <thead>
+      <tr id="user_data_header">
+      	<th id="header_fname">First Name</th>
+      	<th id="header_lname">Last Name</th>
+      	<th id="header_id">ID</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr id="user_data_row_1">
+          <td id="fname_3">John</td>
+          <td id="lname_3">Doe</td>
+          <td id="id_3">12345</td>
+      </tr>
+
+      <tr id="user_data_row_2">
+        	<td id="fname_3">Jane</td>
+        	<td id="lname_3">Doe</td>
+        	<td id="id_3">54321</td>
+      </tr>
+
+      <tr id="user_data_row_3">
+        	<td id="fname_3">Marty</td>
+        	<td id="lname_3">McFly</td>
+        	<td id="id_3">881973</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      This is a footer!
+    </tfoot>
+  </table>
+
+</body>
+</html>

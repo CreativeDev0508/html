@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+  <title>A Simple HTML Document</title>
+</head>
+<body>
+  <!-- In addition to grouping, we are also interested in text-level
+  semantics. That is, providing additional semantics associated with a
+  piece of text rather than an entire grouping. -->
+
+  <!-- One of the most important is the "anchor" tag. The anchor tag
+  requires us to use an "attribute" that provides additional
+  information about what the tag is used for: -->
+
+  <p>
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Donec
+    hendrerit tempor tellus.  Donec pretium posuere tellus.  Proin
+    quam nisl, tincidunt et, mattis eget, convallis nec, purus.  Cum
+    sociis natoque penatibus et magnis dis parturient montes, nascetur
+    ridiculus mus.  Nulla posuere.  Donec vitae dolor.  Nullam
+    tristique diam non turpis.  Cras placerat accumsan nulla.  Nullam
+    rutrum.  <a href="http://www-edlab.cs.umass.edu/cs326">Nam
+    vestibulum accumsan nisl</a>.
+  </p>
+
+  <!-- Or to emphasize text: -->
+  <p>
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Donec
+    hendrerit tempor tellus.  Donec pretium posuere tellus.  Proin
+    quam nisl, tincidunt et, mattis eget, convallis nec, purus.  Cum
+    <i>sociis natoque penatibus et magnis dis</i> parturient montes,
+    nascetur ridiculus mus.  Nulla posuere.  Donec vitae dolor.
+    Nullam tristique diam non turpis.  <i>Cras</i> placerat accumsan
+    nulla.  Nullam rutrum.  Nam vestibulum accumsan nisl.
+  </p>
+
+  <!-- Or to make text "strong" -->
+  <p>
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Donec
+    hendrerit tempor tellus.  Donec pretium posuere tellus.  Proin
+    quam nisl, tincidunt et, mattis eget, convallis nec, purus.  Cum
+    <strong>sociis natoque penatibus et magnis dis parturient montes,
+    nascetur ridiculus mus</strong>.  Nulla posuere.  Donec vitae
+    dolor.  Nullam tristique diam non turpis.  <strong>Cras</strong>
+    placerat accumsan nulla.  Nullam rutrum.  Nam vestibulum accumsan
+    nisl.
+  </p>
+
+  <!-- Or to make text "small" -->
+  <p>
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Donec
+    hendrerit tempor tellus.  Donec pretium posuere tellus.  Proin
+    quam nisl, tincidunt et, mattis eget, convallis nec, purus.  Cum
+    <small>sociis natoque penatibus et magnis dis parturient montes,
+    nascetur ridiculus mus</small>.  Nulla posuere.  Donec vitae
+    dolor.  Nullam tristique diam non turpis.  <small>Cras</small>
+    placerat accumsan nulla.  Nullam rutrum.  Nam vestibulum accumsan
+    nisl.
+  </p>
+
+  <!-- Or to indicate text that is no longer relevant (strike): -->
+  <p>
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Donec
+    hendrerit tempor tellus.  Donec pretium posuere tellus.  Proin
+    quam nisl, tincidunt et, mattis eget, convallis nec, purus.  Cum
+    <s>sociis natoque penatibus</s> et magnis dis parturient montes,
+    nascetur ridiculus mus.  Nulla posuere.  Donec vitae dolor.
+    Nullam tristique diam non turpis.  <s>Cras</s> placerat accumsan
+    nulla.  Nullam rutrum.  Nam vestibulum accumsan nisl.
+  </p>
+
+  <!-- Or to cite existing work: -->
+  <p>
+    A great book on JavaScript is: <br><br>
+
+    <cite>JavaScript: The Good Parts, by Douglas Crockford</cite>
+  </p>
+
+  <!-- Or to quote inline: -->
+  <p>
+    Someone once said, <q>Do not dwell in the past, do not dream of
+    the future, concentrate the mind on the present moment</q>. What a
+    great idea!
+  </p>
+
+  <!-- Sometimes it is useful to provide a definition: -->
+  <p>
+    JavaScript: <dfn>The language of the web</dfn>.
+  </p>
+
+  <!-- Abreviations are nice: -->
+  <p>
+    I often use <abbr>JS</abbr> to refer to JavaScript.
+  </p>
+
+  <!-- And time: -->
+  <p>
+    <time>October 4, 2014</time>
+  </p>
+
+  <!-- Sometimes we are just talking about code: -->
+  <p>
+    You must use the <code>function</code> keyword in JavaScript to
+    define a function. It is easy to define a variable in JavaScript
+    using <code>var</code>. You can use any valid ID in JavaScript for
+    a variable name such as <var>myCounter</var>.
+  </p>
+
+  <!-- Programs often generate output: -->
+  <p>
+    My program printed <samp>iteration 1</samp> followed
+    by <samp>iteration n</samp>.
+  </p>
+
+  <!-- What about user input? -->
+  <p>
+    Make sure you type <kbd>ls</kbd> in the shell to get a listing of
+    the directory contents.
+  </p>
+
+  <!-- Super/Subscripts: -->
+  <p>
+    The bit b<sub>i</sub> corresponds to the array entry
+    x<sup>i+1</sup>.
+  </p>
+
+  <!-- Need to alternate the mood of the text? -->
+  <p>
+    I would like to <i>emphasize</i> the <b>boldness</b> of
+    the <u>underlined</u> text in this paragraph.
+  </p>
+
+  <!-- We have seen this already - it is line break. Because HTML
+  ignores whitespace, this can come in handy. -->
+  <p>
+    Some text followed by
+    <br><br>
+    Some more text!
+  </p>
+
+  <!-- There is a tag that we can use to represent "Edits" -->
+  <p>
+    We need to make sure to insert <ins>universe</ins> for the
+    word <del>world</del> in our hello, world program!
+  </p>
+
+  <!-- But, what if I would like to apply semantics to text that does
+       not have a corresponding tag? -->
+  <p>
+    We can define our own <span>semantics</span>. This can come
+    in <b>very</b> <span>handy</span>.
+  </p>
+  
+</body>
+</html>

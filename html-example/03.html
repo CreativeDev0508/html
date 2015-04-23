@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+  <title>A Simple HTML Document</title>
+</head>
+<body>
+  
+  <!--
+      Grouping elements allow content to be "grouped".
+
+      We have already seen one of these: <p>
+    -->
+
+  <p>
+    Nullam eu ante vel est convallis dignissim.  Fusce suscipit, wisi
+    nec facilisis facilisis, est dui fermentum leo, quis tempor ligula
+    erat quis odio.  Nunc porta vulputate tellus.  Nunc rutrum turpis
+    sed pede.  Sed bibendum.  Aliquam posuere.  Nunc aliquet, augue
+    nec adipiscing interdum, lacus tellus malesuada massa, quis varius
+    mi purus non odio.  Pellentesque condimentum, magna ut suscipit
+    hendrerit, ipsum augue ornare nulla, non luctus diam neque sit
+    amet urna.  Curabitur vulputate vestibulum lorem.  Fusce sagittis,
+    libero non molestie mollis, magna orci ultrices dolor, at
+    vulputate neque nulla lacinia eros.  Sed id ligula quis est
+    convallis tempor.  Curabitur lacinia pulvinar nibh.  Nam a sapien.
+  </p>
+
+  <!-- An <hr> element provides a "semantic break" between groupings -->
+  <hr>
+
+  <!-- It is often useful to identify pre-formatted text: -->
+  <pre>
+    function Pair(x, y) {
+      this.x = x;
+      this.y = y;
+    }
+  </pre>
+
+  <!-- Sometimes, it is useful to identify text that is quoted from another 
+       source. This is what <blockquote> is used for: -->
+  <blockquote>
+    undefined and NaN are not constants. They are global variables,
+    and you can change their values. That should not be possible, and
+    yet it is. Don’t do it.
+    - Douglas Crockford
+  </blockquote>
+
+  <!-- An extremely useful structuring mechanism is the list. There --
+    -- are a variety of ways to create lists in HTML. -->
+
+  <!-- The first, is the ordered list: -->
+  <ol>
+    <!-- to create a list item you do this: -->
+    <li>Apples</li>
+    <li>Oranges</li>
+    <li>Pears</li>
+    <li>Bananas</li>
+  </ol>
+
+  <!-- Another way is to have an itemized/unordered list: -->
+  <ul>
+    <li>Apples</li>
+    <li>Oranges</li>
+    <li>Pears</li>
+    <li>Bananas</li>    
+  </ul>
+
+  <!-- Yet, another way is an association list: -->
+  <dl>
+    <dt>Apples</dt>
+    <dd>These are my favorite</dd>
+    
+    <dt>Oranges</dt>
+    <dd>Are good when they are in season</dd>
+
+    <dt>Pears</dt>
+    <dd>Are delicious when they are ripe</dd>
+
+    <dt>Bananas</dt>
+    <dd>A simply wonderful</dd>
+  </dl>
+
+  <!-- Sometimes, we want to indicate a piece of HTML that could be
+       moved anywhere. This is what we use the <figure> tag for: -->
+  <figure>
+    <p>We might want to put an image here...</p>
+
+    <!-- And then provide a caption: -->
+    <figcaption>Figure 1: The Big Banana</figcaption>
+  </figure>
+
+  <!--
+  Lastly, we may want to provide structure that has no existing tag
+  defining its semantics. In this case, we define our own:
+  -->
+  <div>
+    We can have anything we want inside this tag. Including:
+    <div>
+      Another div!
+    </div>
+  </div>
+  
+</body>  
+</html>
